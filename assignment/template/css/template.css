@@ -1,0 +1,217 @@
+.section {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+
+#header {
+	color: #fff;
+	background: grey;
+}
+
+#searchDiv {
+	float: right;
+	padding: 10px 30px 0px 0px;
+}
+
+#searchText {
+	height: 25px;
+	width: 200px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: medium;
+}
+
+#searchButton {
+	height: 31px;
+	width: 60px;
+	border-radius: 4px;
+	font-size: medium;
+}
+
+
+#menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+
+
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	color: #fff;
+	padding: 15px 10px;
+	display: block;
+	text-decoration: none;
+}
+
+#menu .active {
+	background-color: #000;
+}
+
+#menu li a:hover {
+	background: #c0392b;
+}
+
+#banner {
+
+	background-color: lightgreen;
+}
+
+.banner-title {
+	padding-top: 0px;
+
+}
+
+.banner-title h1 {
+
+	display: inline-block;
+	padding: 10px;
+	color: green;
+	font-size: -webkit-xxx-large;
+
+
+
+}
+
+.banner-title p.lead {
+	color: green;
+	padding: 0px;
+	margin-left: 11px;
+
+}
+
+#submit {
+	margin-left: 11px;
+}
+
+
+.section-head {
+
+	text-decoration: none;
+	color: #000;
+	font-size: 3rem;
+}
+
+.col-md-12 p {
+	color: silver;
+	font-size: medium;
+	margin-bottom: 10px;
+}
+
+.service-box {
+	text-align: center;
+}
+
+
+
+.body-post img {
+
+	width: 350px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.body-post h3 {
+	font-size: 1.35rem;
+}
+
+.body-post h3 a {
+	color: blue;
+	font-size: larger;
+	text-decoration: none;
+}
+
+.body-post p {
+	font-size: medium;
+	color: silver;
+}
+
+.post-date {
+	font-size: 13px;
+	margin-bottom: 2px;
+}
+
+#footer-sidebar {
+	color: black;
+	background: orange;
+	padding: 49px 0;
+}
+
+.footer-widget {
+	color: black;
+
+}
+
+
+#footer {
+	color: black;
+	background: white;
+	padding: 10px 0;
+}
+
+#footer .col-md-6 {
+	color: blue;
+}
+
+#footer p {
+	color: silver;
+	margin-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+	.news-post {
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 768px) {
+	#logo {
+		text-align: center;
+		margin: 10px 0;
+	}
+
+	#menu {
+		text-align: center;
+	}
+
+	.banner-title {
+		padding-top: 0;
+	}
+
+	.banner-title h1 {
+		font-size: 1.7rem;
+	}
+
+	.section {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.testimonial {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.service-box {
+		margin-bottom: 30px;
+	}
+
+	.footer-widget {
+		margin-bottom: 20px;
+	}
+
+	#footer {
+		text-align: center;
+	}
+
+	#social-icons {
+		margin-top: 10px;
+	}
+}
