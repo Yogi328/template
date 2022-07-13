@@ -41,6 +41,7 @@
 
 #menu li {
 	display: inline-block;
+
 }
 
 #menu li a {
@@ -50,8 +51,10 @@
 	text-decoration: none;
 }
 
+
 #menu .active {
 	background-color: #000;
+
 }
 
 #menu li a:hover {
@@ -60,7 +63,7 @@
 
 #banner {
 
-	background-color: lightgreen;
+	background-color: #96F119;
 }
 
 .banner-title {
@@ -72,19 +75,28 @@
 
 	display: inline-block;
 	padding: 10px;
-	color: green;
+	color: #C6FA0A;
 	font-size: -webkit-xxx-large;
+
 
 
 
 }
 
 .banner-title p.lead {
-	color: green;
+	color: #C6FA0A;
 	padding: 0px;
 	margin-left: 11px;
 
 }
+
+.sub-head {
+	padding-left: 487px;
+	margin-top: -39px;
+	font-size: 20px;
+	color: silver;
+}
+
 
 #submit {
 	margin-left: 11px;
@@ -98,10 +110,27 @@
 	font-size: 3rem;
 }
 
+#searchDiv {
+	display: flex;
+}
+
+.form-control {
+	margin-right: 9px;
+	width: 70%;
+	margin-bottom: 5px;
+}
+
+#searchDiv button {
+	margin: 2px;
+	height: 35px;
+
+}
+
 .col-md-12 p {
 	color: silver;
 	font-size: medium;
-	margin-bottom: 10px;
+	margin-bottom: 17px;
+	margin-top: 23px;
 }
 
 .service-box {
