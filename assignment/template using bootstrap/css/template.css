@@ -92,9 +92,7 @@
 }
 
 
-#submit {
-	margin-left: 11px;
-}
+
 
 
 .section-head {
@@ -127,12 +125,6 @@
 	margin-top: 23px;
 }
 
-.service-box {
-	text-align: center;
-}
-
-
-
 .body-post img {
 
 	width: 350px;
@@ -153,11 +145,6 @@
 .body-post p {
 	font-size: medium;
 	color: silver;
-}
-
-.post-date {
-	font-size: 13px;
-	margin-bottom: 2px;
 }
 
 #footer-sidebar {
@@ -207,14 +194,8 @@
 	.banner-title h1 {
 		font-size: 1.7rem;
 	}
-
-	.section {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-
-	.service-box {
-		margin-bottom: 30px;
+	.sub-head{
+		text-align: center;
 	}
 
 	.footer-widget {
