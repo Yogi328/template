@@ -4,6 +4,11 @@ import{HttpClient,HttpHeaders} from '@angular/common/http';
 import { Products } from '../mock_data';
 import { Product } from '../Product';
 
+const httpOption={
+  headers:new HttpHeaders({
+    'Content-Type':'application/json'
+  })
+}
 
 @Injectable({
   providedIn: 'root'
@@ -19,5 +24,4 @@ export class ProductService {
     return this.http.get<Product[]>(this.apiUrl);
   }
 }
-
 
